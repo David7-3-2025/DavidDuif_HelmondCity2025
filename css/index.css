@@ -324,6 +324,7 @@ li {
     .section2_div1 {
         box-sizing: border-box;
         padding: 3rem;
+        text-align: center;
         background-color: aqua;
         margin-bottom: 0;
     }
@@ -346,6 +347,7 @@ li {
     .section2_div2 {
         box-sizing: border-box;
         padding: 3rem;
+        text-align: center;
         background-color: lightgreen;
         margin-bottom: 0;
     }
