@@ -260,6 +260,7 @@ li {
     img {
         width: 30%;
         height: auto;
+        max-height: 30%;
         margin: 2.5rem;
     }
     .container_section2Div2p, .container_section2Div1p {
@@ -342,6 +343,7 @@ li {
     img {
         width: 30%;
         height: auto;
+        max-height: 30%;
         margin: 2.5rem;
     }
     .container_section2Div2p, .container_section2Div1p {
