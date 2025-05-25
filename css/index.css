@@ -334,10 +334,10 @@ li {
     }
     .section2_div1_p {
         box-sizing: border-box;
-        padding: 2rem;
-        width: 60%;
+        padding: 1.75rem;
+        width: 62%;
         color: blue;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
     img {
         width: 30%;
@@ -356,10 +356,10 @@ li {
     }
     .section2_div2_p {
         box-sizing: border-box;
-        padding: 2rem;
-        width: 60%;
+        padding: 1.75rem;
+        width: 62%;
         color: blue;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
     footer {
         padding: 2rem;
