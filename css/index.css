@@ -1,0 +1,365 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-image: url('../afbeeldingen/helnond_stad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+ul {
+    list-style: none;
+}
+li {
+    background-image: url('../afbeeldingen/letter.png');
+    background-size: 36px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        box-sizing: border-box;
+        padding: 8rem;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .section1 {
+        box-sizing: border-box;
+        padding: 2rem;
+        text-align: center;
+        background-color: olive;
+        color: white;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 1.75rem;
+        padding-bottom: 1.5rem;
+    }
+    li {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+    .section2_div1 {
+        box-sizing: border-box;
+        padding: 2rem;
+        background-color: aqua;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    .section2_div1_p {
+        color: blue;
+    }
+    img {
+        width: 45%;
+        height: auto;
+        margin: 2.5rem;
+    }
+    .section2_div2 {
+        box-sizing: border-box;
+        padding: 2rem;
+        background-color: lightgreen;
+        margin-bottom: 0;
+    }
+    .section2_div2_p {
+        color: blue;
+    }
+    footer {
+        padding: 2rem;
+        background-color: #333333;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    header {
+        box-sizing: border-box;
+        padding: 11rem;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .section1 {
+        box-sizing: border-box;
+        padding: 3rem;
+        text-align: center;
+        background-color: olive;
+        color: white;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 1.75rem;
+        padding-bottom: 1.5rem;
+    }
+    li {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+    .section2_div1 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: aqua;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    .section2_div1_p {
+        color: blue;
+    }
+    img {
+        width: 45%;
+        height: auto;
+        margin: 2.5rem;
+    }
+    .section2_div2 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: lightgreen;
+        margin-bottom: 0;
+    }
+    .section2_div2_p {
+        color: blue;
+    }
+    footer {
+        padding: 2rem;
+        background-color: #333333;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        box-sizing: border-box;
+        padding: 11rem;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .section1 {
+        box-sizing: border-box;
+        padding: 5rem;
+        text-align: center;
+        background-color: olive;
+        color: white;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 1.75rem;
+        padding-bottom: 1.5rem;
+    }
+    li {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+    .section2_div1 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: aqua;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    .section2_div1_p {
+        color: blue;
+    }
+    img {
+        width: 45%;
+        height: auto;
+        margin: 2.5rem;
+    }
+    .section2_div2 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: lightgreen;
+        margin-bottom: 0;
+    }
+    .section2_div2_p {
+        color: blue;
+    }
+    footer {
+        padding: 2rem;
+        background-color: #333333;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    header {
+        box-sizing: border-box;
+        padding: 11rem;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .container_sections {
+        display: flex;
+    }
+    .section1 {
+        box-sizing: border-box;
+        padding: 2rem;
+        text-align: center;
+        background-color: olive;
+        color: white;
+        margin-bottom: 0;
+    }
+    li {
+        padding: 2rem;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    h2 {
+        font-size: 1.75rem;
+        padding-bottom: 1.5rem;
+    }
+    li {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+    .section2_div1 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: aqua;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    .section2_div1_p {
+        width: 64%;
+        color: blue;
+    }
+    img {
+        width: 30%;
+        height: auto;
+        margin: 2.5rem;
+    }
+    .container_section2Div2p, .container_section2Div1p {
+        display: flex;
+    }
+    .section2_div2 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: lightgreen;
+        margin-bottom: 0;
+    }
+    .section2_div2_p {
+        width: 64%;
+        color: blue;
+    }
+    footer {
+        padding: 2rem;
+        background-color: #333333;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        box-sizing: border-box;
+        padding: 20rem;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .container_sections {
+        display: flex;
+    }
+    .section1 {
+        box-sizing: border-box;
+        padding: 0.25rem;
+        padding-top: 1rem;
+        text-align: center;
+        background-color: olive;
+        color: white;
+        margin-bottom: 0;
+    }
+    li {
+        padding: 1.5rem;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    h2 {
+        font-size: 1.75rem;
+        padding-bottom: 1.5rem;
+    }
+    li {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+    .section2_div1 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: aqua;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    .section2_div1_p {
+        width: 64%;
+        color: blue;
+    }
+    img {
+        width: 30%;
+        height: auto;
+        margin: 2.5rem;
+    }
+    .container_section2Div2p, .container_section2Div1p {
+        display: flex;
+    }
+    .section2_div2 {
+        box-sizing: border-box;
+        padding: 3rem;
+        background-color: lightgreen;
+        margin-bottom: 0;
+    }
+    .section2_div2_p {
+        width: 64%;
+        color: blue;
+    }
+    footer {
+        padding: 2rem;
+        background-color: #333333;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+
