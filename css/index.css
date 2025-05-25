@@ -323,7 +323,7 @@ li {
     }
     .section2_div1 {
         box-sizing: border-box;
-        padding: 6rem;
+        padding: 3rem;
         text-align: center;
         background-color: aqua;
         margin-bottom: 0;
@@ -333,7 +333,9 @@ li {
         color: darkblue;
     }
     .section2_div1_p {
-        width: 64%;
+        box-sizing: border-box;
+        padding: 2rem;
+        width: 60%;
         color: blue;
         font-size: 1.25rem;
     }
@@ -347,13 +349,15 @@ li {
     }
     .section2_div2 {
         box-sizing: border-box;
-        padding: 6rem;
+        padding: 3rem;
         text-align: center;
         background-color: lightgreen;
         margin-bottom: 0;
     }
     .section2_div2_p {
-        width: 64%;
+        box-sizing: border-box;
+        padding: 2rem;
+        width: 60%;
         color: blue;
         font-size: 1.25rem;
     }
