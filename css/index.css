@@ -64,11 +64,8 @@ li {
     .section2_div1_p {
         color: blue;
     }
-    .div_img {
-        width: 45%;
-    }
     img {
-        width: 100%;
+        width: 45%;
         height: auto;
         margin: 2.5rem;
     }
@@ -127,11 +124,8 @@ li {
     .section2_div1_p {
         color: blue;
     }
-    .div_img {
-        width: 45%;
-    }
     img {
-        width: 100%;
+        width: 45%;
         height: auto;
         margin: 2.5rem;
     }
@@ -190,11 +184,8 @@ li {
     .section2_div1_p {
         color: blue;
     }
-    .div_img {
-        width: 45%;
-    }
     img {
-        width: 100%;
+        width: 45%;
         height: auto;
         margin: 2.5rem;
     }
@@ -266,11 +257,8 @@ li {
         width: 64%;
         color: blue;
     }
-    .div_img {
-        width: 30%;
-    }
     img {
-        width: 100%;
+        width: 30%;
         height: auto;
         margin: 2.5rem;
     }
@@ -351,11 +339,8 @@ li {
         color: blue;
         font-size: 1.1rem;
     }
-    .div_img {
-        width: 20%; 
-    }
     img {
-        width: 100%;
+        width: 30%;
         height: auto;
         max-height: 30%;
         margin: 2.5rem;
