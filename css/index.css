@@ -64,8 +64,11 @@ li {
     .section2_div1_p {
         color: blue;
     }
-    img {
+    .div_img {
         width: 45%;
+    }
+    img {
+        width: 100%;
         height: auto;
         margin: 2.5rem;
     }
@@ -124,8 +127,11 @@ li {
     .section2_div1_p {
         color: blue;
     }
-    img {
+    .div_img {
         width: 45%;
+    }
+    img {
+        width: 100%;
         height: auto;
         margin: 2.5rem;
     }
@@ -184,8 +190,11 @@ li {
     .section2_div1_p {
         color: blue;
     }
-    img {
+    .div_img {
         width: 45%;
+    }
+    img {
+        width: 100%;
         height: auto;
         margin: 2.5rem;
     }
@@ -257,10 +266,12 @@ li {
         width: 64%;
         color: blue;
     }
-    img {
+    .div_img {
         width: 30%;
+    }
+    img {
+        width: 100%;
         height: auto;
-        max-height: 30%;
         margin: 2.5rem;
     }
     .container_section2Div2p, .container_section2Div1p {
@@ -340,8 +351,11 @@ li {
         color: blue;
         font-size: 1.1rem;
     }
+    .div_img {
+        width: 30%; 
+    }
     img {
-        width: 30%;
+        width: 100%;
         height: auto;
         max-height: 30%;
         margin: 2.5rem;
