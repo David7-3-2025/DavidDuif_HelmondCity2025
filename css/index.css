@@ -353,9 +353,11 @@ li {
     }
     .div_img {
         width: 30%; 
+        min-height: 550px;
     }
     img {
         width: 100%;
+        max-width: 550px;
         height: auto;
         max-height: 30%;
         margin: 2.5rem;
